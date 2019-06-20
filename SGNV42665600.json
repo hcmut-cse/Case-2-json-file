@@ -1,0 +1,253 @@
+{
+        "BK#": {
+            "row": [0, 1],
+            "column": [5, null],
+            "isFlex": 0,
+
+            "contentSameLineWithKeyword": 1,
+            "topAndKeywordOnSingleLine": 0,
+            "hasSubfield": 0,
+
+            "subfield": {
+                "name": "BK#:",
+                "field": "everything else"
+            }
+        },
+
+        "S/C": {
+            "row": [1, 2],
+            "column": [5, null],
+            "isFlex": 0,
+
+            "contentSameLineWithKeyword": 1,
+            "topAndKeywordOnSingleLine": 0,
+            "hasSubfield": 0,
+
+            "subfield": {
+                "name": "S/C:",
+                "field": "everything else"
+            }
+        },
+
+        "SHIPPER": {
+            "row": [3, 8],
+            "column": [9, null],
+            "isFlex": 1,
+
+            "contentSameLineWithKeyword": 1,
+            "topAndKeywordOnSingleLine": 0,
+            "hasSubfield": 0,
+
+            "endObject": {
+                "top": "FREIGHT PREPAID",
+                "bottom": "CNEE",
+                "left": "SHIPPER",
+                "right": -1
+            },
+
+            "subfield": {
+                "tel": "TEL:",
+                "fax": "FAX:"
+            }
+        },
+        "CNEE": {
+            "row": [8, 11],
+            "column": [7, null],
+            "isFlex": 1,
+
+
+            "contentSameLineWithKeyword": 1,
+            "topAndKeywordOnSingleLine": 0,
+            "hasSubfield": 0,
+
+            "endObject": {
+                "top": -1,
+                "bottom": "DESCIPTIONS",
+                "left": "CNEE",
+                "right": -1
+            },
+
+            "subfield": {
+                "name": "CNEE:",
+                "field": "everything else"
+            }
+        },
+        "DESCIPTIONS": {
+            "row": [11, 12],
+            "column": [13, null],
+            "isFlex": 1,
+
+            "contentSameLineWithKeyword": 1,
+            "topAndKeywordOnSingleLine": 0,
+            "hasSubfield": 0,
+
+            "endObject": {
+                "top": -1,
+                "bottom": "HS CODE",
+                "left": "DESCIPTIONS",
+                "right": -1
+            },
+
+            "subfield": {
+                "name": "DESCIPTIONS:",
+                "field": "everything else"
+            }
+        },
+
+        "HS CODE": {
+            "row": [12, 13],
+            "column": [24, null],
+            "isFlex": 1,
+
+            "contentSameLineWithKeyword": 1,
+            "topAndKeywordOnSingleLine": 0,
+            "hasSubfield": 0,
+
+            "endObject": {
+                "top": "DESCIPTIONS",
+                "bottom": "AMS HBL#",
+                "left": "HS CODE",
+                "right": -1
+            },
+
+            "subfield": {
+                "name": "HS CODE:",
+                "field": "everything else"
+            }
+        },
+
+
+        "AMS HBL#": {
+            "row": [13, 14],
+            "column": [25, null],
+            "isFlex": 1,
+
+            "contentSameLineWithKeyword": 1,
+            "topAndKeywordOnSingleLine": 0,
+            "hasSubfield": 0,
+
+            "endObject": {
+                "top": "HS CODE",
+                "bottom": "SCAC CODE",
+                "left": "AMS HBL#",
+                "right": -1
+            },
+
+            "subfield": {
+                "name": "AMS HBL#:",
+                "field": "everything else"
+            }
+        },
+
+        "SCAC CODE": {
+            "row": [14, 15],
+            "column": [26, null],
+            "isFlex": 1,
+
+            "contentSameLineWithKeyword": 1,
+            "topAndKeywordOnSingleLine": 0,
+            "hasSubfield": 0,
+
+            "endObject": {
+                "top": "AMS HBL#",
+                "bottom": "ACI CODE",
+                "left": "SCAC CODE",
+                "right": -1
+            },
+
+            "subfield": {
+                "name": "SCAC CODE:",
+                "field": "everything else"
+            }
+        },
+
+        "ACI CODE": {
+            "row": [15, 16],
+            "column": [25, null],
+            "isFlex": 1,
+
+            "contentSameLineWithKeyword": 1,
+            "topAndKeywordOnSingleLine": 0,
+            "hasSubfield": 0,
+
+            "endObject": {
+                "top": "SCAC CODE",
+                "bottom": "NAC",
+                "left": "ACI CODE",
+                "right": -1
+            },
+
+            "subfield": {
+                "name": "ACI CODE:",
+                "field": "everything else"
+            }
+        },
+
+        "NAC": {
+            "row": [16, 17],
+            "column": [20, null],
+            "isFlex": 1,
+
+            "contentSameLineWithKeyword": 1,
+            "topAndKeywordOnSingleLine": 0,
+            "hasSubfield": 0,
+
+            "endObject": {
+                "top": "ACI CODE",
+                "bottom": -1,
+                "left": "NAC",
+                "right": -1
+            },
+
+            "subfield": {
+                "name": "NAC:",
+                "field": "everything else"
+            }
+        },
+
+
+        "MIXED": {
+            "row": [17, 29],
+            "column": [0, null],
+            "isFlex": 1,
+
+            "contentSameLineWithKeyword": 0,
+            "topAndKeywordOnSingleLine": 0,
+            "hasSubfield": 0,
+
+            "endObject": {
+                "top": "NAC",
+                "bottom": "TOTAL",
+                "left": -1,
+                "right": -1
+            },
+
+            "subfield": {
+                "split": "/"
+            }
+        },
+
+        "TOTAL": {
+            "row": [29, 30],
+            "column": [7, null],
+            "isFlex": 1,
+
+
+            "contentSameLineWithKeyword": 1,
+            "topAndKeywordOnSingleLine": 1,
+            "hasSubfield": 0,
+
+            "endObject": {
+                "top": -1,
+                "bottom": -1,
+                "left": "TOTAL",
+                "right": -1
+            },
+
+            "subfield": {
+                "name": "TOTAL:",
+                "field": "everything else"
+            }
+        }
+
+}

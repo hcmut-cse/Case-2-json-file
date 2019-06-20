@@ -1,0 +1,283 @@
+{
+
+        "Shipper": {
+            "row": [2, 6],
+            "column": [9, null],
+            "isFlex": 1,
+            "contentSameLineWithKeyword": 0,
+            "topAndKeywordOnSingleLine": 0,
+            "hasSubfield": 0,
+
+            "endObject": {
+                "top": "Shipper",
+                "bottom": "Consignee",
+                "left": "Shipper",
+                "right": -1
+            },
+
+            "subfield": {
+                
+            }
+        },
+
+        "Consignee": {
+            "row": [7, 11],
+            "column": [9, null],
+            "isFlex": 1,
+
+            "contentSameLineWithKeyword": 0,
+            "topAndKeywordOnSingleLine": 0,
+            "hasSubfield": 0,
+            "endObject": {
+                "top": "Consignee",
+                "bottom": "Notify Party",
+                "left": "Consignee",
+                "right": -1
+            },
+
+            "subfield": {
+            }
+        },
+
+        "Notify Party": {
+            "row": [12, 13],
+            "column": [9, null],
+            "isFlex": 1,
+
+            "contentSameLineWithKeyword": 0,
+            "topAndKeywordOnSingleLine": 0,
+            "hasSubfield": 0,
+            "endObject": {
+                "top": "Notify Party",
+                "bottom": "POL",
+                "left": -1,
+                "right": -1
+            },
+
+            "subfield": {
+            }
+        },
+
+        "POL": {
+            "row": [13, 14],
+            "column": [4, null],
+            "isFlex": 1,
+
+            "contentSameLineWithKeyword": 1,
+            "topAndKeywordOnSingleLine": 1,
+            "hasSubfield": 0,
+
+            "endObject": {
+                "top": "POL",
+                "bottom": "POD",
+                "left": "POL",
+                "right": -1
+            },
+
+            "subfield": {
+                "name": "POL:",
+                "field": "everything else"
+            }
+        },
+
+        "POD": {
+            "row": [14, 15],
+            "column": [4, null],
+            "isFlex": 1,
+
+            "contentSameLineWithKeyword": 1,
+            "topAndKeywordOnSingleLine": 0,
+            "hasSubfield": 0,
+            "endObject": {
+                "top": "POL",
+                "bottom": "VSL/VOY",
+                "left": "POD",
+                "right": -1
+            },
+
+            "subfield": {
+                "name": "POD:",
+                "field": "everything else"
+            }
+        },
+
+
+        "VSL/VOY": {
+            "row": [15, 16],
+            "column": [8, null],
+            "isFlex": 1,
+
+            "contentSameLineWithKeyword": 1,
+            "topAndKeywordOnSingleLine": 0,
+            "hasSubfield": 0,
+
+            "endObject": {
+                "top": "POD",
+                "bottom": "ETD",
+                "left": "VSL/VOY",
+                "right": -1
+            },
+
+            "subfield": {
+                "name": "VSL/VOY:",
+                "field": "everything else"
+            }
+        },
+
+        "ETD": {
+            "row": [16, 17],
+            "column": [4, null],
+            "isFlex": 1,
+
+            "contentSameLineWithKeyword": 1,
+            "topAndKeywordOnSingleLine": 0,
+            "hasSubfield": 0,
+
+            "endObject": {
+                "top": "VSL/VOY",
+                "bottom": "Q’TY",
+                "left": "ETD",
+                "right": -1
+            },
+
+            "subfield": {
+                "name": "ETD:",
+                "field": "everything else"
+            }
+        },
+
+        "Q’TY": {
+            "row": [17, 18],
+            "column": [5, null],
+            "isFlex": 1,
+
+            "contentSameLineWithKeyword": 1,
+            "topAndKeywordOnSingleLine": 0,
+            "hasSubfield": 0,
+
+            "endObject": {
+                "top": "ETD",
+                "bottom": "G.W",
+                "left": "Q’TY",
+                "right": -1
+            },
+
+            "subfield": {
+                "name": "Q’TY:",
+                "field": "everything else"
+            }
+        },
+
+
+        "G.W": {
+            "row": [18, 19],
+            "column": [4, null],
+            "isFlex": 1,
+
+            "contentSameLineWithKeyword": 1,
+            "topAndKeywordOnSingleLine": 0,
+            "hasSubfield": 0,
+
+            "endObject": {
+                "top": "Q’TY",
+                "bottom": "Measurement",
+                "left": "G.W",
+                "right": -1
+            },
+
+            "subfield": {
+                "name": "G.W:",
+                "field": "everything else"
+            }            
+        },
+
+
+        "Measurement": {
+            "row": [19, 20],
+            "column": [12, null],
+            "isFlex": 1,
+
+            "contentSameLineWithKeyword": 1,
+            "topAndKeywordOnSingleLine": 0,
+            "hasSubfield": 0,
+
+            "endObject": {
+                "top": "G.W",
+                "bottom": "Cont / Seal No.",
+                "left": "Measurement",
+                "right": -1
+            },
+
+            "subfield": {
+                "name": "Measurement:",
+                "field": "everything else"
+            }            
+        },
+
+        "Cont / Seal No.": {
+            "row": [20, 21],
+            "column": [17, null],
+            "isFlex": 1,
+
+            "contentSameLineWithKeyword": 1,
+            "topAndKeywordOnSingleLine": 0,
+            "hasSubfield": 0,
+
+            "endObject": {
+                "top": "Measurement",
+                "bottom": "Description of goods",
+                "left": "Cont / Seal No.",
+                "right": -1
+            },
+
+            "subfield": {
+                "name": "Cont / Seal No.:",
+                "field": "everything else"
+            }
+        },
+
+        "Description of goods": {
+            "row": [22, 23],
+            "column": [0, null],
+            "isFlex": 1,
+
+            "contentSameLineWithKeyword": 0,
+            "topAndKeywordOnSingleLine": 0,
+            "hasSubfield": 0,
+
+            "endObject": {
+                "top": "Description of goods",
+                "bottom": "-----",
+                "left": -1,
+                "right": -1
+            },
+
+            "subfield": {
+                "name": "Description of goods:",
+                "field": "everything else"
+            }
+        },
+
+        "HS CODE": {
+            "row": [25, 26],
+            "column": [8, null],
+            "isFlex": 1,
+
+            "contentSameLineWithKeyword": 1,
+            "topAndKeywordOnSingleLine": 0,
+            "hasSubfield": 0,
+
+            "endObject": {
+                "top": "FREIGHT PREPAID",
+                "bottom": -1,
+                "left": "HS CODE",
+                "right": -1
+            },
+
+            "subfield": {
+                "name": "HS CODE:",
+                "field": "everything else"
+            }
+        }
+
+}
